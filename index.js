@@ -22,7 +22,7 @@ app.use("/api/borrow", borrowRouter);
 
 const port = process.env.PORT
 app.listen(port, "localhost", () => {
-    console.log("app is listening on port " + port)
+    console.log("app is listening onkk port " + port)
 })
 
 
