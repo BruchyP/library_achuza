@@ -21,7 +21,7 @@ app.use("/api/borrow", borrowRouter);
 
 
 const port = process.env.PORT
-app.listen(port, "localhost", () => {
+app.listen(port, () => {
     console.log("app is listening on port " + port)
 })
 
